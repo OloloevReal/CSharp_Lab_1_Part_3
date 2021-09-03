@@ -7,6 +7,10 @@ namespace Lab_1_Part_3
     class Lab_3_2: ILab{
         private const string inputS = "Только Лизавета Ивановна успела снять капот и шляпу, как уже графиня послала за нею и велела опять подавать карету. Они пошли садиться.";
         public override void Do(){
+            Console.WriteLine("Sourse data: ");
+            Console.WriteLine(inputS);
+            Console.WriteLine();
+            
             var g = inputS.GroupBy(c => c).ToDictionary(c => c.Key , v => v.Count());
             Console.WriteLine();
 

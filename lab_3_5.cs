@@ -1,3 +1,7 @@
+using System;
+using System.Text;
+using System.Linq;
+
 namespace Lab_1_Part_3
 {
     class Lab_3_5: ILab{
