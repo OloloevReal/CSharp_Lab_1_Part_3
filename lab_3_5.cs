@@ -6,7 +6,7 @@ namespace Lab_1_Part_3
 {
 
     class Lab_3_5: ILab{
-        private readonly string inputS = @"С той поры мне час от часу становилось лучше. Меня лечил полковой цирюльник, ибо в крепости другого лекаря не было, и, слава богу, не умничал. Молодость и природа ускорили мое выздоровление.";
+        private readonly string inputS = @"С той поры мне час от часу становилось лучше. Меня лечил полковой цирюльник, ибо в крепости другого лекаря не было, и, слава богу, не умничал.";
         public override void Do(){
             Console.WriteLine("Sourse data: ");
             Console.WriteLine(inputS);
